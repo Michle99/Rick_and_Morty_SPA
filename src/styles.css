@@ -1,0 +1,33 @@
+/* Set the background color to an orange variant */
+body {
+    background-color: #f5d79f;
+}
+  
+  /* Adjust the layout of the characters to be in rows of 3 and evenly spaced */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+  
+.col-3 {
+    flex: 0 0 calc(33.3333% - 1rem);
+    margin-bottom: 1rem;
+}
+  
+  /* Make the navbar touch the ends of the page */
+.navbar {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.container-color {
+    background-color: rgb(159, 158, 157);
+}
+
+.container {
+    padding-right: 0;
+    padding-left: 0;
+    margin-bottom: 10px;
+}
+
