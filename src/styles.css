@@ -11,7 +11,7 @@ body {
 }
   
 .col-3 {
-    flex: 0 0 calc(33.3333% - 1rem);
+    /* flex: 0 0 calc(33.3333% - 1rem); */
     margin-bottom: 1rem;
 }
   
@@ -30,4 +30,26 @@ body {
     padding-left: 0;
     margin-bottom: 10px;
 }
+
+/* Adjust the card size */
+.card {
+  width: 100%; 
+}
+
+.card-img-top {
+  height: 10%;
+  object-fit: cover; 
+}
+
+.card-body {
+  padding: 1rem; 
+}
+
+.card-title {
+  font-size: 1.2rem;
+}
+
+
+
+
 

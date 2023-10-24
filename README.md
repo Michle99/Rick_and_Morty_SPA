@@ -9,5 +9,10 @@ Created a single-page application in React that retrieves data from an API and r
 - Webpack
 - Babel
 
+### Screenshot
+
+<img src="./images/rick_and_morty.png" width="90%" alt="Rick and Morty">
+
+
 ### Getting Started
 Clone the repository to get started.
